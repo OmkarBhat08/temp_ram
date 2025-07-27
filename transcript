@@ -1,0 +1,328 @@
+# vsim -c top 
+# Start time: 15:45:34 on Jul 18,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# //  Questa Sim
+# //  Version 10.6c linux Jul 25 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.ram_if(fast)
+# Loading work.ram_pkg(fast)
+# Loading work.top(fast)
+# generator randomized transaction: data_in=250,write_enb=0,read_enb=1,address=9,time=0
+# ----------------Driver-----------------
+# Data sent by driver to interface: data_in=250,write_enb=0,read_enb=1,address=9,time=90
+# Input functional coverage = 65
+# ----------------Monitor-----------------
+# data_out=0,time=90
+# Output fuctional coverage = 100
+# ----------------Reference model----------------
+# Reference model reading data_out =0 from address=9,time=110
+# ----------Scoreboard----------
+# From Reference model: data_out=0, ADDRESS= 9,time=110
+# From Monitor: data_out=0,ADDRESS=9,time=110
+# In Reference model (Scoreboard: data_out=0) |  (Monitor: data_out=0) | time=110
+# Match Successful= 1
+# -----------------------------------------------------------------------------------------------------------
+# generator randomized transaction: data_in=205,write_enb=0,read_enb=1,address=16,time=130
+# ----------------Monitor-----------------
+# data_out=0,time=130
+# Output fuctional coverage = 100
+# ----------------Driver-----------------
+# Data sent by driver to interface: data_in=205,write_enb=0,read_enb=1,address=16,time=150
+# Input functional coverage = 65
+# ----------------Monitor-----------------
+# data_out=0,time=170
+# Output fuctional coverage = 100
+# ----------------Reference model----------------
+# Reference model reading data_out =0 from address=16,time=170
+# ----------Scoreboard----------
+# From Reference model: data_out=0, ADDRESS=16,time=170
+# From Monitor: data_out=0,ADDRESS=9,time=170
+# In Reference model (Scoreboard: data_out=0) |  (Monitor: data_out=0) | time=170
+# Match Successful= 2
+# -----------------------------------------------------------------------------------------------------------
+# ----------------Monitor-----------------
+# data_out=0,time=210
+# Output fuctional coverage = 100
+# ----------------Monitor-----------------
+# data_out=0,time=250
+# Output fuctional coverage = 100
+# generator randomized transaction: data_in=175,write_enb=0,read_enb=1,address=28,time=260
+# ----------------Driver-----------------
+# Data sent by driver to interface: data_in=175,write_enb=0,read_enb=1,address=28,time=290
+# Input functional coverage = 65
+# ----------------Monitor-----------------
+# data_out=0,time=290
+# Output fuctional coverage = 100
+# ----------------Reference model----------------
+# Reference model reading data_out =0 from address=28,time=310
+# ----------Scoreboard----------
+# From Reference model: data_out=0, ADDRESS=28,time=310
+# From Monitor: data_out=0,ADDRESS=16,time=310
+# In Reference model (Scoreboard: data_out=0) |  (Monitor: data_out=0) | time=310
+# Match Successful= 3
+# -----------------------------------------------------------------------------------------------------------
+# ----------------Monitor-----------------
+# data_out=0,time=330
+# Output fuctional coverage = 100
+# ----------------Monitor-----------------
+# data_out=0,time=370
+# Output fuctional coverage = 100
+# generator randomized transaction: data_in=241,write_enb=1,read_enb=0,address=2,time=390
+# ----------------Driver-----------------
+# Data sent by driver to interface: data_in=241,write_enb=1,read_enb=0,address=2,time=410
+# Input functional coverage = 90
+# ----------------Monitor-----------------
+# data_out=0,time=410
+# Output fuctional coverage = 100
+# ----------------Reference model----------------
+# writing data 241 in address 2,time=430
+# ----------Scoreboard----------
+# From Reference model: data_out=0, ADDRESS= 2,time=430
+# From Monitor: data_out=0,ADDRESS=16,time=430
+# In Reference model (Scoreboard: data_out=0) |  (Monitor: data_out=0) | time=430
+# Match Successful= 4
+# -----------------------------------------------------------------------------------------------------------
+# ----------------Monitor-----------------
+# data_out=0,time=450
+# Output fuctional coverage = 100
+# ----------------Monitor-----------------
+# data_out=0,time=490
+# Output fuctional coverage = 100
+# generator randomized transaction: data_in=25,write_enb=1,read_enb=0,address=16,time=520
+# ----------------Monitor-----------------
+# data_out=0,time=530
+# Output fuctional coverage = 100
+# ----------------Driver-----------------
+# Data sent by driver to interface: data_in=25,write_enb=1,read_enb=0,address=16,time=550
+# Input functional coverage = 90
+# ----------------Monitor-----------------
+# data_out=0,time=570
+# Output fuctional coverage = 100
+# ----------------Reference model----------------
+# writing data 25 in address 16,time=570
+# ----------Scoreboard----------
+# From Reference model: data_out=0, ADDRESS=16,time=570
+# From Monitor: data_out=0,ADDRESS=16,time=570
+# In Reference model (Scoreboard: data_out=0) |  (Monitor: data_out=0) | time=570
+# Match Successful= 5
+# -----------------------------------------------------------------------------------------------------------
+# ----------------Monitor-----------------
+# data_out=0,time=610
+# Output fuctional coverage = 100
+# generator randomized transaction: data_in=65,write_enb=1,read_enb=0,address=26,time=650
+# ----------------Monitor-----------------
+# data_out=0,time=650
+# Output fuctional coverage = 100
+# ----------------Driver-----------------
+# Data sent by driver to interface: data_in=65,write_enb=1,read_enb=0,address=26,time=670
+# Input functional coverage = 90
+# ----------------Monitor-----------------
+# data_out=0,time=690
+# Output fuctional coverage = 100
+# ----------------Reference model----------------
+# writing data 65 in address 26,time=690
+# ----------Scoreboard----------
+# From Reference model: data_out=0, ADDRESS=26,time=690
+# From Monitor: data_out=0,ADDRESS=28,time=690
+# In Reference model (Scoreboard: data_out=0) |  (Monitor: data_out=0) | time=690
+# Match Successful= 6
+# -----------------------------------------------------------------------------------------------------------
+# ----------------Monitor-----------------
+# data_out=0,time=730
+# Output fuctional coverage = 100
+# ----------------Monitor-----------------
+# data_out=0,time=770
+# Output fuctional coverage = 100
+# generator randomized transaction: data_in=59,write_enb=0,read_enb=1,address=11,time=780
+# ----------------Driver-----------------
+# Data sent by driver to interface: data_in=59,write_enb=0,read_enb=1,address=11,time=810
+# Input functional coverage = 90
+# ----------------Monitor-----------------
+# data_out=0,time=810
+# Output fuctional coverage = 100
+# ----------------Reference model----------------
+# Reference model reading data_out =0 from address=11,time=830
+# ----------Scoreboard----------
+# From Reference model: data_out=0, ADDRESS=11,time=830
+# From Monitor: data_out=0,ADDRESS=28,time=830
+# In Reference model (Scoreboard: data_out=0) |  (Monitor: data_out=0) | time=830
+# Match Successful= 7
+# -----------------------------------------------------------------------------------------------------------
+# ----------------Monitor-----------------
+# data_out=0,time=850
+# Output fuctional coverage = 100
+# generator randomized transaction: data_in=56,write_enb=0,read_enb=1,address=13,time=910
+# ----------------Driver-----------------
+# Data sent by driver to interface: data_in=56,write_enb=0,read_enb=1,address=13,time=930
+# Input functional coverage = 90
+# ----------------Reference model----------------
+# Reference model reading data_out =0 from address=13,time=950
+# ----------Scoreboard----------
+# From Reference model: data_out=0, ADDRESS=13,time=950
+# From Monitor: data_out=0,ADDRESS=28,time=950
+# In Reference model (Scoreboard: data_out=0) |  (Monitor: data_out=0) | time=950
+# Match Successful= 8
+# -----------------------------------------------------------------------------------------------------------
+# generator randomized transaction: data_in=251,write_enb=0,read_enb=1,address=28,time=1040
+# ----------------Driver-----------------
+# Data sent by driver to interface: data_in=251,write_enb=0,read_enb=1,address=28,time=1070
+# Input functional coverage = 90
+# ----------------Reference model----------------
+# Reference model reading data_out =0 from address=28,time=1090
+# ----------Scoreboard----------
+# From Reference model: data_out=0, ADDRESS=28,time=1090
+# From Monitor: data_out=0,ADDRESS=2,time=1090
+# In Reference model (Scoreboard: data_out=0) |  (Monitor: data_out=0) | time=1090
+# Match Successful= 9
+# -----------------------------------------------------------------------------------------------------------
+# generator randomized transaction: data_in=68,write_enb=1,read_enb=0,address=18,time=1170
+# ----------------Driver-----------------
+# Data sent by driver to interface: data_in=68,write_enb=1,read_enb=0,address=18,time=1190
+# Input functional coverage = 90
+# ----------------Reference model----------------
+# writing data 68 in address 18,time=1210
+# ----------Scoreboard----------
+# From Reference model: data_out=0, ADDRESS=18,time=1210
+# From Monitor: data_out=0,ADDRESS=2,time=1210
+# In Reference model (Scoreboard: data_out=0) |  (Monitor: data_out=0) | time=1210
+# Match Successful= 10
+# -----------------------------------------------------------------------------------------------------------
+# generator randomized transaction: data_in=58,write_enb=1,read_enb=0,address=3,time=1300
+# ----------------Driver-----------------
+# Data sent by driver to interface: data_in=58,write_enb=1,read_enb=0,address=3,time=1330
+# Input functional coverage = 90
+# ----------------Reference model----------------
+# writing data 58 in address 3,time=1350
+# ----------Scoreboard----------
+# From Reference model: data_out=0, ADDRESS= 3,time=1350
+# From Monitor: data_out=0,ADDRESS=2,time=1350
+# In Reference model (Scoreboard: data_out=0) |  (Monitor: data_out=0) | time=1350
+# Match Successful= 11
+# -----------------------------------------------------------------------------------------------------------
+# generator randomized transaction: data_in=53,write_enb=1,read_enb=0,address=6,time=1430
+# ----------------Driver-----------------
+# Data sent by driver to interface: data_in=53,write_enb=1,read_enb=0,address=6,time=1450
+# Input functional coverage = 90
+# ----------------Reference model----------------
+# writing data 53 in address 6,time=1470
+# ----------Scoreboard----------
+# From Reference model: data_out=0, ADDRESS= 6,time=1470
+# From Monitor: data_out=0,ADDRESS=2,time=1470
+# In Reference model (Scoreboard: data_out=0) |  (Monitor: data_out=0) | time=1470
+# Match Successful= 12
+# -----------------------------------------------------------------------------------------------------------
+# generator randomized transaction: data_in=17,write_enb=0,read_enb=1,address=21,time=1560
+# ----------------Driver-----------------
+# Data sent by driver to interface: data_in=17,write_enb=0,read_enb=1,address=21,time=1590
+# Input functional coverage = 90
+# ----------------Reference model----------------
+# Reference model reading data_out =0 from address=21,time=1610
+# ----------Scoreboard----------
+# From Reference model: data_out=0, ADDRESS=21,time=1610
+# From Monitor: data_out=0,ADDRESS=16,time=1610
+# In Reference model (Scoreboard: data_out=0) |  (Monitor: data_out=0) | time=1610
+# Match Successful= 13
+# -----------------------------------------------------------------------------------------------------------
+# generator randomized transaction: data_in=231,write_enb=1,read_enb=0,address=3,time=1690
+# ----------------Driver-----------------
+# Data sent by driver to interface: data_in=231,write_enb=1,read_enb=0,address=3,time=1710
+# Input functional coverage = 90
+# ----------------Reference model----------------
+# writing data 231 in address 3,time=1730
+# ----------Scoreboard----------
+# From Reference model: data_out=0, ADDRESS= 3,time=1730
+# From Monitor: data_out=0,ADDRESS=16,time=1730
+# In Reference model (Scoreboard: data_out=0) |  (Monitor: data_out=0) | time=1730
+# Match Successful= 14
+# -----------------------------------------------------------------------------------------------------------
+# generator randomized transaction: data_in=129,write_enb=0,read_enb=1,address=5,time=1820
+# ----------------Driver-----------------
+# Data sent by driver to interface: data_in=129,write_enb=0,read_enb=1,address=5,time=1850
+# Input functional coverage = 90
+# ----------------Reference model----------------
+# Reference model reading data_out =0 from address=5,time=1870
+# ----------Scoreboard----------
+# From Reference model: data_out=0, ADDRESS= 5,time=1870
+# From Monitor: data_out=0,ADDRESS=16,time=1870
+# In Reference model (Scoreboard: data_out=0) |  (Monitor: data_out=0) | time=1870
+# Match Successful= 15
+# -----------------------------------------------------------------------------------------------------------
+# generator randomized transaction: data_in=242,write_enb=0,read_enb=1,address=21,time=1950
+# ----------------Driver-----------------
+# Data sent by driver to interface: data_in=242,write_enb=0,read_enb=1,address=21,time=1970
+# Input functional coverage = 90
+# ----------------Reference model----------------
+# Reference model reading data_out =0 from address=21,time=1990
+# ----------Scoreboard----------
+# From Reference model: data_out=0, ADDRESS=21,time=1990
+# From Monitor: data_out=0,ADDRESS=26,time=1990
+# In Reference model (Scoreboard: data_out=0) |  (Monitor: data_out=0) | time=1990
+# Match Successful= 16
+# -----------------------------------------------------------------------------------------------------------
+# generator randomized transaction: data_in=187,write_enb=0,read_enb=1,address=2,time=2080
+# ----------------Driver-----------------
+# Data sent by driver to interface: data_in=187,write_enb=0,read_enb=1,address=2,time=2110
+# Input functional coverage = 90
+# ----------------Reference model----------------
+# Reference model reading data_out =241 from address=2,time=2130
+# ----------Scoreboard----------
+# From Reference model: data_out=241, ADDRESS= 2,time=2130
+# From Monitor: data_out=0,ADDRESS=26,time=2130
+# In Reference model (Scoreboard: data_out=241) |  (Monitor: data_out=0) | time=2130
+# Match Unsuccessful = 1
+# -----------------------------------------------------------------------------------------------------------
+# generator randomized transaction: data_in=216,write_enb=0,read_enb=1,address=15,time=2210
+# ----------------Driver-----------------
+# Data sent by driver to interface: data_in=216,write_enb=0,read_enb=1,address=15,time=2230
+# Input functional coverage = 90
+# ----------------Reference model----------------
+# Reference model reading data_out =0 from address=15,time=2250
+# ----------Scoreboard----------
+# From Reference model: data_out=0, ADDRESS=15,time=2250
+# From Monitor: data_out=0,ADDRESS=26,time=2250
+# In Reference model (Scoreboard: data_out=0) |  (Monitor: data_out=0) | time=2250
+# Match Successful= 17
+# -----------------------------------------------------------------------------------------------------------
+# generator randomized transaction: data_in=51,write_enb=1,read_enb=0,address=16,time=2340
+# ----------------Driver-----------------
+# Data sent by driver to interface: data_in=51,write_enb=1,read_enb=0,address=16,time=2370
+# Input functional coverage = 90
+# ----------------Reference model----------------
+# writing data 51 in address 16,time=2390
+# ----------Scoreboard----------
+# From Reference model: data_out=0, ADDRESS=16,time=2390
+# From Monitor: data_out=0,ADDRESS=11,time=2390
+# In Reference model (Scoreboard: data_out=0) |  (Monitor: data_out=0) | time=2390
+# Match Successful= 18
+# -----------------------------------------------------------------------------------------------------------
+# generator randomized transaction: data_in=7,write_enb=0,read_enb=1,address=13,time=2470
+# ----------------Driver-----------------
+# Data sent by driver to interface: data_in=7,write_enb=0,read_enb=1,address=13,time=2490
+# Input functional coverage = 90
+# ----------------Reference model----------------
+# Reference model reading data_out =0 from address=13,time=2510
+# ----------Scoreboard----------
+# From Reference model: data_out=0, ADDRESS=13,time=2510
+# From Monitor: data_out=0,ADDRESS=11,time=2510
+# In Reference model (Scoreboard: data_out=0) |  (Monitor: data_out=0) | time=2510
+# Match Successful= 19
+# -----------------------------------------------------------------------------------------------------------
+# In Reference model (Scoreboard: data_out=0) |  (Monitor: data_out=0) | time=2600
+# Match Successful= 20
+# -----------------------------------------------------------------------------------------------------------
+# ** Note: $finish    : top.sv(49)
+#    Time: 2600 ns  Iteration: 0  Instance: /top
+# End time: 15:45:36 on Jul 18,2025, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
